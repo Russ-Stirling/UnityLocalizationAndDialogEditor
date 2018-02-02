@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 390b831dded5b714aa8e17c8ed87c87f, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  Languages:
+  - LanguageKey: English
+    KeyWords:
+    - Key: D1
+      Value: Want to know anything about me?
+    - Key: R11
+      Value: Whats your name?
+    - Key: R12
+      Value: Where did you grow up?
+    - Key: R13
+      Value: Screw off!
+    - Key: R14
+      Value: No thanks, goodbye.
+    - Key: D2
+      Value: Russell Stirling.
+    - Key: R21
+      Value: Cool name!
+    - Key: R22
+      Value: Thanks, goodbye
+    - Key: D4
+      Value: Thats rude of you.
+    - Key: R41
+      Value: Yeah my bad
+    - Key: D3
+      Value: Its a small town, you probably havent heard of it.
+    - Key: R31
+      Value: Try me!
+    - Key: R32
+      Value: You're probably right.
+    - Key: D5
+      Value: It's a small town called Bracebridge.
+    - Key: R51
+      Value: I have heard of that!
+    - Key: R52
+      Value: Yeah, never heard of it.
+    - Key: EndPhrase
+      Value: Goodbye. (The end)
+    - Key: RestartPhrase
+      Value: The conversation has ended. Press 1 to restart.
+    - Key: InvalidPhrase
+      Value: Invalid entry. Please press one of the available numbers.
+    IsCurrent: 1
+  - LanguageKey: French
+    KeyWords:
+    - Key: D1
+      Value: Voulez-vous savoir quelque chose sur moi?
+    - Key: R11
+      Value: Quel est ton nom?
+    - Key: R12
+      Value: "O\xF9 as tu grandi?"
+    - Key: R13
+      Value: "Se d\xE9visser!"
+    - Key: R14
+      Value: Non merci, au revoir.
+    - Key: D2
+      Value: Russell Stirling
+    - Key: R21
+      Value: Nom cool!
+    - Key: R22
+      Value: Merci au revoir.
+    - Key: D4
+      Value: C'est impoli de ta part.
+    - Key: R41
+      Value: Ouais ma mauvaise.
+    - Key: D3
+      Value: C'est une petite ville. Vous n'en avez probablement jamais entendu parler.
+    - Key: R31
+      Value: Essaie-moi!
+    - Key: R32
+      Value: Tu as probablement raison.
+    - Key: D5
+      Value: Bracebridge
+    - Key: R51
+      Value: J'en ai entendu parler.
+    - Key: R52
+      Value: Non, j'en aiJamais entendu parler.
+    - Key: EndPhrase
+      Value: Au revoir. (La fin)
+    - Key: RestartPhrase
+      Value: "Appuyez sur 1 pour red\xE9marrer"
+    - Key: InvalidPhrase
+      Value: "Entr\xE9e invalide. S'il vous pla\xEEt choisir un nombre disponible."
+    IsCurrent: 0

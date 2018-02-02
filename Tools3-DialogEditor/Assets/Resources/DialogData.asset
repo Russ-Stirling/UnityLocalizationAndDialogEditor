@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9692f55ac8c884c803428246c12664, type: 3}
+  m_Name: DialogData
+  m_EditorClassIdentifier: 
+  DialogOptions:
+  - DisplayText: D1
+    Index: 0
+    PossibleResponses:
+    - ResposeText: R11
+      NextDialogIndex: 1
+      IsDialogEnd: 0
+      ResponseId: 0
+    - ResposeText: R12
+      NextDialogIndex: 2
+      IsDialogEnd: 0
+      ResponseId: 1
+    - ResposeText: R13
+      NextDialogIndex: 4
+      IsDialogEnd: 0
+      ResponseId: 2
+    - ResposeText: R14
+      NextDialogIndex: 0
+      IsDialogEnd: 1
+      ResponseId: 3
+  - DisplayText: D2
+    Index: 1
+    PossibleResponses:
+    - ResposeText: R21
+      NextDialogIndex: 0
+      IsDialogEnd: 0
+      ResponseId: 0
+    - ResposeText: R12
+      NextDialogIndex: 2
+      IsDialogEnd: 0
+      ResponseId: 1
+    - ResposeText: R22
+      NextDialogIndex: 0
+      IsDialogEnd: 1
+      ResponseId: 2
+  - DisplayText: D3
+    Index: 2
+    PossibleResponses:
+    - ResposeText: R31
+      NextDialogIndex: 3
+      IsDialogEnd: 0
+      ResponseId: 0
+    - ResposeText: R32
+      NextDialogIndex: 0
+      IsDialogEnd: 0
+      ResponseId: 1
+  - DisplayText: D5
+    Index: 3
+    PossibleResponses:
+    - ResposeText: R51
+      NextDialogIndex: 0
+      IsDialogEnd: 0
+      ResponseId: 0
+    - ResposeText: R52
+      NextDialogIndex: 0
+      IsDialogEnd: 0
+      ResponseId: 1
+  - DisplayText: D4
+    Index: 4
+    PossibleResponses:
+    - ResposeText: R41
+      NextDialogIndex: 0
+      IsDialogEnd: 0
+      ResponseId: 0
